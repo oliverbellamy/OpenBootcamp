@@ -1,0 +1,38 @@
+body {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    gap: 20px;
+    padding: 5px;
+    overflow:hidden;
+}
+
+
+.btn-modern {
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(112, 6, 6);
+    width: 100px;
+    height: 50px;
+    color: whitesmoke;
+    cursor: pointer;
+    transition: all 0.4s ease;
+}
+/*.moderno2 {
+    opacity:
+    position: absolute;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(17, 5, 5);
+    width: 100px;
+    height: 50px;
+    color: whitesmoke;
+    cursor: pointer;
+    animation: traslacion 4s ease-in-out infinite forwards alternate;
+}*/
+
+.btn-modern:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 2px 5px coral;
+    background-color: rgb(150, 6, 6);
+}
